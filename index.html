@@ -1,21 +1,77 @@
 <!DOCTYPE html>
 <html lang='fr'>
     <head>
-        <title>Super Luffy Bros avec Phaser.io</title>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="style/style.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        <script type="text/javascript" src="node_modules/phaser/dist/phaser.min.js"/></script>
-        <!--<script type="text/javascript" src="script/mainDeSecours.js"/></script>-->
-        <script type="module" src="scene/scene1.js"/></script>
-        <script type="module" src="scene/level1.js"/></script>
-    </head>
-    <body>
-        <h1>Super Luffy Bros avec Phaser.io</h1>
-        <p id="demo"></p>
+        <title>Super Luffy Bros</title>
 
-        <div id="superLuffyBros">
-            
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="src/style/style.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="icon" type="image/png" href="src/image/Zoro-icon.ico" />
+        
+        <script type="text/javascript" src="node_modules/phaser/dist/phaser.min.js"/></script>
+        <script type="module" src="src/script/scene/main.js"/></script>
+    </head>
+
+    <body class="bg-dark">
+        <div class="container-fluid">
+            <div class="text-center">
+                <a class="hover-title"><img src="src/image/logoStyle.png" width="80" height="50" alt=""></a>
+                <div class="hover-image" style="z-index: 28999;">
+                    <img src="src/image/vraiLogoMoche.jpg">
+                </div>
+            </div>
         </div>
+
+        <h1 class="text-light text-center lead">Super Luffy Bros avec Phaser.io</h1>
+        
+        <div id="superLuffyBros">
+           <!-- Le jeu -->
+        </div>
+
+        <div class="container text-center is-big mt-4">
+			<div class="container-fluid">
+				<div class="row to-reveal">
+                    <div class="col-lg mt-1">
+						<div class="card bg-dark shadow-lg p-3 mb-2 rounded">
+							<div class="card-body">
+								<h2 class="card-title text-light lead">But du jeu</h2>
+								<p class="card-text lead-bold text-light">
+                                    Finissez les trois niveaux en recupérant ses 3 repas préférés, <br>
+                                    Dans le dernier niveau des bonus sont disponibles, ils vous seront peut-être utiles.
+                                </p>
+							</div>
+						</div>
+					</div>
+                    <div class="col-lg mt-1">
+						<div class="card bg-dark shadow-lg p-3 mb-2 rounded">
+							<div class="card-body">
+								<h4 class="card-title text-light lead">Ne pas oublier</h4>
+								<p class="card-text lead-bold text-light"> 
+                                    Luffy ne sait pas nager alors evitez l'eau si vous ne voulez pas recommencer le niveau ! <br>
+                                    <a title="Dans la saga One Piece tout détenteur d'un pouvoir du fruit du démon, ne peut pas en manger un deuxième sous peine de mourir.">
+                                        Exceptionnelement il vous est possible de prendre deux fruits du démon (les bonus) sans mourir.
+                                    </a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg mt-1">
+						<div class="card bg-dark shadow-lg p-3 mb-2 rounded">
+							<div class="card-body">
+								<h4 class="card-title text-light lead">Commandes</h4>
+								<p class="card-text lead-bold text-light">
+                                    Pour avancer : "D" ou  "→", <br>
+                                    Pour reculer : "Q" ou  "←", <br>
+                                    Pour Sauter : "Z" ou  "↑", <br>
+                                    Pour interagir avec les portes "Espace". <br>
+                                </p>
+							</div>
+						</div>
+					</div>	
+				</div>
+            </div>
+		</div>
     </body>
 </html>
