@@ -3,7 +3,7 @@
 Le jeu est un platformer de type Super Mario Bros (d'où le nom de mon jeu, j'avoue que je suis pas allé chercher loin pour trouver le nom)
 
 Le but du jeu est de finir les trois niveaux en recupérant les 3 repas préférés du personnage (3 morceaux de viande), dans le dernier niveau des bonus sont disponibles et seront peut-être utiles.
-Les niveaux on étaient créés par mes soins grâce au logiciel "Tiled" et au tileset "pirates.png" récupéré sur internet.
+Les niveaux on étaient créés par mes soins grâce au logiciel "Tiled" et au tileset "pirates.png" (dans le dossier "src/image") récupéré sur internet.
 
 Les commandes pour jouer : <br>
   - Pour avancer : "D" ou  "→", <br>
